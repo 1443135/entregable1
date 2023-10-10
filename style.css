@@ -1,0 +1,40 @@
+
+header { 
+    width: 100%; /* Establece el ancho del elemento <header> */
+    height: 400px; /*es definir y controlar la altura*/
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texto-superpuesto {
+    align-items: center;/**/
+    background-position: center center; /**/
+    width: 100%; /*Ancho completo del texto superpuesto*/
+    height: 70%; /*Altura de la mitad superior para el texto*/
+    background-image: url(https://ciberinteligencia.files.wordpress.com/2018/10/blockchain-g.gif);/*imagen de fndo del textosuperpuesto*/
+    justify-content: center;/*mantiene en el centro sino se va a la izquierda*/
+    display: flex;/*mantiene en el centro sino se va a la izquierda arriba*/
+    padding: 20px; /*Espacio interno alrededor del texto*/
+    color: white; /*color del texto superpuesto*/
+    z-index: 1; /*apilamiento de elementos*/
+}
+
+
+.borde-circular {
+    border-radius: 20%;/*esquinas circulaeres*/
+    height: 370px;/*Parte de abajo cierta distancia*/
+}
+img{
+    float: left;/*Mantiene el orden*/
+    margin-right: 50px;/*Margen derecho de una imagen*/
+}
+
+
+
+footer{
+    background-color: rgb(29, 28, 28);/*color del footer*/
+}
+.mi-footer ul{
+    color: white;/*color de los ul del footer*/
+}

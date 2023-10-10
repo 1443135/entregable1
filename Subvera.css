@@ -1,0 +1,40 @@
+
+header { 
+    width: 100%; /* Establece el ancho del elemento <header> */
+    height: 400px; /*es definir y controlar la altura*/
+}
+
+.texto-superpuesto {
+    align-items: center;/**/
+    background-position: center center; /**/
+    width: 100%; /*Ancho completo del texto superpuesto*/
+    height: 70%; /*Altura de la mitad superior para el texto*/
+    background-color: black;/*imagen de fndo del textosuperpuesto*/
+    justify-content: center;/*mantiene en el centro sino se va a la izquierda*/
+    display: flex;/*mantiene en el centro sino se va a la izquierda arriba*/
+    padding: 20px; /*Espacio interno alrededor del texto*/
+    color: white; /*color del texto superpuesto*/
+    z-index: 1; /*apilamiento de elementos*/
+}
+
+
+.borde-circular {
+    border-radius: 20%;/*esquinas circulaeres*/
+    height: 370px;/*Parte de abajo cierta distancia*/
+}
+img{
+    float: left;/*Mantiene el orden*/
+    margin-right: 50px;/*Margen derecho de una imagen*/
+}
+
+
+
+footer{
+
+    width: 117%; /*Ancho completo del texto superpuesto*/
+    height: 70%; /*Altura de la mitad superior para el texto*/
+    background-color: rgb(12, 12, 12);/*color del footer*/
+}
+.mi-footer ul{
+    color: rgb(248, 248, 248);/*color de los ul del footer*/
+}
